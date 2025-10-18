@@ -1,0 +1,35 @@
+.history {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.historyList {
+  list-style-type: none;
+  padding: 10px;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: var(--color-muted);
+  border-radius: var(--radius);
+  margin: 0;
+  border: 1px solid var(--color-border);
+}
+
+.historyItem {
+  padding: 5px 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-foreground);
+}
+
+.historyItem:last-child {
+  border-bottom: none;
+}
+
+.headsResult {
+  color: var(--color-chart-2);
+  font-weight: bold;
+}
+
+.tailsResult {
+  color: var(--color-muted-foreground);
+  font-weight: bold;
+}

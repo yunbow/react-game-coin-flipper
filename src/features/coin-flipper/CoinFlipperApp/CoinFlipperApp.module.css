@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--color-card);
+  padding: 30px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid var(--color-border);
+}
